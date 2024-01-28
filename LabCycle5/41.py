@@ -4,4 +4,4 @@ with open("csv3.csv", newline='') as csvfile:
  print("ROLL NO STUDENT NAME COURSE")
  print("--------------------")
  for i in d:
-  print(i['ROLLNO'], i['STUDENTNAME'],i['COURSE'])
+  print(i['rollno'], i['studentname'],i['course'])
